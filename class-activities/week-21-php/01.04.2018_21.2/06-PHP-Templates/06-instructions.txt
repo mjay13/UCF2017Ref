@@ -1,0 +1,39 @@
+Instructions: Using the Boilerplate directory, fire up a server on port 8000.
+
+Look up PHP's documentation on superglobals: http://php.net/manual/en/language.variables.superglobals.php
+
+Open content.php. In your browser, change the URL to the following:
+
+http://localhost:8000?name=John&email=john@doe.com
+
+You might want to read about query strings for this part: https://en.wikipedia.org/wiki/Query_string
+
+Next, add <? php print_r($_GET) ?> just after opening your container div.
+
+Dicuss what you see with your partner. Be ready to share your thoughts with the class.
+
+Reset the URL and enter a name and email with the form. Note the URL. What effect do you think this has on $_GET?
+
+Repeat the above step, but change the form's method to POST.
+- What effect does this have on the URL?
+- Which superglobal do you think this information is in?
+
+
+
+---- AFTER CLASS DISCUSSION ON $_GET ----
+
+Instructions: Pull in the User class you built earlier.
+
+Figure out how to create a user whenever you can get at least a name and email address from the URL query string.
+
+If you can create a user, add a header that greets them.
+
+If you can't, add a header that says, "Hello, Stranger!"
+
+You'll want to use the shorcut syntax for echo in the template: http://php.net/manual/en/function.echo.php
+
+Figure out how to do the same if the form data is sent via POST.
+
+Write a function that figures out which of the two methods the form used, and gets information from the correct superglobal. Consider this exercise optional.
+
+Hint: You can use $_SERVER, but you don't need to.

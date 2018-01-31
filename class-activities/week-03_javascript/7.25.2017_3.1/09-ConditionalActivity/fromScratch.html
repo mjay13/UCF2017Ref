@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Javascript template</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
+</head>
+<body>
+  <div class="container">
+    <h1>Steak</h1>
+  </div>
+  <script type="text/javascript">
+// * Create a website (from scratch) that asks users if they eat steak.
+var likeSteak = confirm ("Do you like steak?");
+// * If they respond with "yes", write the following to the page: "Here’s a Steak Sandwich!"
+
+if (likeSteak) {
+	document.write("Here's a steak sandwich");
+} else {
+	document.write("Here’s a Tofu Stir-Fry!");
+}
+
+// * **BONUS:** Ask what the user’s birth year is. If they are under 21, alert the following: "No Sake for you!"
+var birthYear = prompt("When were you born?");
+// * **HINT:** You will need to use `document.write()` from a few slides back.
+if (birthYear > 1996) {
+	alert("No Sake for you");
+}
+  </script>
+}
+</body>
+</html>

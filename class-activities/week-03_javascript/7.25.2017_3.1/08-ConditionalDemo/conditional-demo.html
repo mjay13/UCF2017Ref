@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Conditional Demo</title>
+  </head>
+  <body>
+  <h1>Sushi test</h1>
+    <script type="text/javascript">
+
+      // Here we create our prompt and confirm variables which will store user input.
+      var confirmSushi = confirm("Do you like sushi?");
+      var confirmGingerTea = confirm("Do you like Ginger Tea?");
+      var sushiType = prompt("What kind of sushi do you like?");
+      var age = 25;
+
+
+      if (confirmSushi) {
+        alert("You like " + sushiType + "!");
+      } else if (confirmGingerTea) {
+        alert("You like ginger tea!!");
+      } else {
+        document.write("You don't like sushi or ginger tea.");
+      }
+
+      if (age > 21) {
+        console.log("Drink up");
+      }
+    </script>
+
+  </body>
+</html>

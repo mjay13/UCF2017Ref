@@ -1,0 +1,17 @@
+Instructions:
+
+Create a new PHP file. Name it whatever you wish.
+
+In it, create variables to store your first name, last name, and birth year.
+
+Create a variable to store your full name, and construct it from your first and last name.
+
+Calculate your age and store it in a variable.
+
+Print the following to the screen as separate lines:
+
+"My name is {{ NAME }}."
+
+"I'm {{ AGE }} years old."
+
+Run your program from the command line. Make sure everything prints on separate lines.

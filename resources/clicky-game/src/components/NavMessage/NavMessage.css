@@ -1,0 +1,49 @@
+.navbar .correct {
+  animation: 1s correct;
+}
+
+.navbar .incorrect {
+  animation: 1s incorrect;
+}
+
+@keyframes correct {
+  0% {
+    color: white;
+  }
+  20% {
+    color: #2e7d32;
+  }
+  40% {
+    color: white;
+  }
+  60% {
+    font-weight: #2e7d32;
+  }
+  80% {
+    font-weight: white;
+  }
+  100% {
+    font-weight: #2e7d32;
+  }
+}
+
+@keyframes incorrect {
+  0% {
+    color: white;
+  }
+  20% {
+    color: #c62828;
+  }
+  40% {
+    color: white;
+  }
+  60% {
+    font-weight: #c62828;
+  }
+  80% {
+    font-weight: white;
+  }
+  100% {
+    font-weight: #c62828;
+  }
+}

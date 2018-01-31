@@ -1,0 +1,14 @@
+Instructions:
+
+With your group write out the steps you would use "mathematically"
+to determine the answer to the following situation:
+
+Assuming:
+
+The first train of the day comes in at 3:00 AM.
+The train runs every 17 minutes
+The current time is 7:12 PM.
+There have been no delays and will be no delays.
+Question:
+
+How many minutes away is the next train?

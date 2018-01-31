@@ -1,0 +1,21 @@
+Instructions
+
+Part I:
+BEFORE LOOKING AT THE CODE, individually take two minutes and pseucode the game at a very high level.  Slack this out to the in-class-activities when complete
+
+Part II:
+Review the code in groups, compare your pseudocode and describe how the code works in plain English (yes, very close to pseudocoding) in five (5) steps
+
+Part III:
+
+Look at the jQuery API Docs [(https://api.jquery.com/)](https://api.jquery.com/) and add a button of your own that gives Captain Planet a new power.
+
+Examples:
+  * Click to… Stretch Captain Planet!
+  * Click to… Trigger a maniacal laugh!
+  * Click to… Create clones of Captain Planet!
+  * Click to… Create fire or water (hint: images)!
+
+Slack out a screenshot of the working example.
+
+BONUS: Lines 154 - 184 are an intro on how to use the switch statement, but it isn't DRY.  Using https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch as a reference, remove the duplicate code and add the 'break;' command where appropriate.
